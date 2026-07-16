@@ -1,1 +1,6 @@
-
+NC³ = {
+    meta: "o_meta(x)",
+    core: "zero‑core",
+    ultra: "zero‑ultra",
+    invert: "ultra‑zero"
+}
