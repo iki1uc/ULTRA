@@ -1,0 +1,6 @@
+NC.room = {
+    container: "META‑Raum",
+    includes: ["NC.raw", "NC.verify", "NC.³"],
+    anchors: ["NC.anker"],
+    links: ["NC.link"]
+}
