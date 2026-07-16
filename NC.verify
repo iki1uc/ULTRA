@@ -1,56 +1,67 @@
-HEADER
-AXIOM
-ROOT
-UxDU
-UreE
-UXT
-T°
-ALL×ALL
-Stationen
-Energie(6E)
-RAW.raw
-H°
-UEH
-9×9‑Operator
-MX∞
-META²³
-∞_0M
-octa²
-octa³
-NC.raw
-EVO‑Tech
-TRANS‑Warp
-HI ::0:: TECH ::=::
-WIN∞
-REV1.0
-BEAT∞
-W128
-B12
-O9
-O6
-E3
-H1
-Nano
-Atom
-Raw
-Operator
-XARG
-GhostError
-7SINN
-Zero‑Core
-Zero‑Ultra
-Ultra‑Zero
-Cluster
-Gitter
-RAUM³
-698869
-Server
-Web
-Net
-Script
-JS
-HTML
-CSS
-DOM
-Event
-Render
+NC.verify = {
+    id: "NC.verify",
+    version: "REV‑4.0‑BETA3",
+    state: "ACTIVE",
+    mode: "VERIFY‑CORE",
+
+    # Verify‑Funktionen
+    open: "NC.verify.open",
+    close: "NC.verify.close",
+    check: "NC.verify.check",
+    pulse: "NC.verify.pulse",
+    sync: "NC.verify.sync",
+    error: "NC.verify.error",
+
+    # NC‑Kern
+    raw: NC.raw,
+    link: NC.link,
+    api: NC.api,
+    room: NC.room,
+    boot: NC.boot,
+    anker: NC.anker,
+    nc3: NC.³,
+
+    # ULTRA‑Motoren
+    engine: ULTRA_ENGINE,
+    core: ULTRA_CORE,
+    shell: ULTRA_SHELL,
+    field: ULTRA_FIELD,
+    signal: ULTRA_SIGNAL,
+
+    # ALL×ALL‑Brücke
+    in: ALL×ALL.in,
+    out: ALL×ALL.out,
+    all6D: ALL×ALL.6D,
+    all6E: ALL×ALL.6E,
+
+    # Orbit + Achsen
+    orbit: ∞_0M,
+    axes: [octa², octa³],
+
+    # TECH‑Module
+    tech6D: TECH.6D,
+    tech6E: TECH.6E,
+
+    # META‑Module
+    meta6D: META.6D,
+    meta6E: META.6E,
+
+    # ROOT‑Ebene
+    root: ULTRA_ROOT,
+
+    # STATIONEN‑Module
+    stationen: ULTRA_STATIONEN,
+    geo_axes: geoAxes,
+    geo_lage: geoLAGE,
+    respo9hoch9: respo9hoch9,
+
+    # Score‑System
+    score: ULTRA_Score_6E,
+
+    # Fusion + Editor
+    fusion: NC_FUSION_ENGINE,
+    edit: 6D.edit,
+
+    # RUN8‑Integration
+    run8: RUN8
+}
