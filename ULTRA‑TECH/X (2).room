@@ -1,0 +1,6 @@
+X = Universal
+AXIS = 1D
+RAW = X.raw
+MODE = Bridge
+LINK = ROOM.room ↔ ∞_0M ↔ 9×9‑Operator.me
+STATUS = ACTIVE
