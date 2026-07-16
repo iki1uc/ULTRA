@@ -4,5 +4,15 @@ ENGINE = {
     raw: xarg + ghosterror + 7sinn,
     score: zero‑core + zero‑ultra + ultra‑zero
 }
+ULTRA_MERGE_ENGINE = {
+    merge6D: MERGE6D,
+    merge6E: MERGE6E,
+    meta: MERGE_META,
+    tree: 6D‑Baum.raw,
+    room: ROOM6D.room,
+    map: ULTRA‑MAP.raw,
+    string: ULTRA‑STRING6D.room
+}
+
 SECTION ULTRA‑MERGE‑ENGINE
 ULTRA‑MERGE‑ENGINE
