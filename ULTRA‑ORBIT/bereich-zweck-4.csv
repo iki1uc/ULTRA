@@ -1,0 +1,5 @@
+﻿Bereich,Zweck,HTML‑Element
+Header,"Titel, Intro",<header>
+Navigation,ROOM‑Modul‑Liste,<nav>
+Main,"Matrix, Viewer, Status",<main>
+Footer,Infos,<footer>
