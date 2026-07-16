@@ -1,0 +1,25 @@
+ULTRA_128_PYRAMIDEN = {
+    lvl: NC.lvl,
+    chain_operator: ULTRA-OPERATOR-CHAIN,
+    chain_energy: ULTRA-Energie-Chain,
+    chain_raw: ULTRA-RAW-Chain,
+    chain_score: ULTRA-Score-Chain,
+    chain_12e: 12e allin allout,
+    chain_fit: FIT respo alles,
+    room6d: ROOM6D.room,
+    map: ULTRA-MAP.raw,
+    string6d: ULTRA-STRING6D.room,
+    stationen: Stationen[0…320],
+    geo: {
+        axes: geoAxes,
+        lage: geoLAGE,
+        respo: respo9hoch9
+    },
+    nc2: NC².core.stable,
+    engine: ULTRA-ENGINE,
+    core: ULTRA-CORE,
+    shell: ULTRA-SHELL,
+    field: ULTRA-FIELD,
+    signal: ULTRA-SIGNAL,
+    final: ULTRA-FINAL
+}
