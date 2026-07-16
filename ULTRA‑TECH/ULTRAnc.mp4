@@ -1,0 +1,75 @@
+ULTRA = {
+    # 1. ROOT-Schicht
+    root: ULTRA_ROOT,
+
+    # 2. ORBIT-Schicht
+    orbit: ULTRA_ORBIT,
+    orbit_anchor: "∞_0M",
+
+    # 3. TECH-Schicht
+    tech: {
+        d6: TECH.6D,
+        e6: TECH.6E,
+        raw: ULTRA_TECH.raw
+    },
+
+    # 4. META-Schicht
+    meta: {
+        d6: META.6D,
+        e6: META.6E
+    },
+
+    # 5. STATIONEN-Schicht
+    stationen: {
+        raw: STATIONEN.raw,
+        sum: "Σ(Stationen[0…320.raw])",
+        geo_axes: geoAxes,
+        geo_lage: geoLAGE,
+        respo9hoch9: respo9hoch9
+    },
+
+    # 6. ALL×ALL-Schicht
+    allxall: {
+        in: ALL×ALL.in,
+        out: ALL×ALL.out,
+        d6: ALL×ALL.6D,
+        e6: ALL×ALL.6E,
+        raw: ALL×ALL.raw
+    },
+
+    # ULTRA-Motoren
+    engine: ULTRA_ENGINE,
+    core: ULTRA_CORE,
+    shell: ULTRA_SHELL,
+    field: ULTRA_FIELD,
+    signal: ULTRA_SIGNAL,
+
+    # NC-Schicht
+    nc: {
+        raw: NC.raw,
+        link: NC.link,
+        verify: NC.verify,
+        room: NC.room,
+        api: NC.api,
+        boot: NC.boot,
+        anker: NC.anker,
+        nc2: NC.²
+    },
+
+    # Achsen
+    axes: {
+        octa2: "octa²",
+        octa3: "octa³",
+        nc2_axis: "□"
+    },
+
+    # Score-System
+    score: {
+        s1: "ULTRA-Score-100%",
+        s2: "ULTRA-Score-100%²",
+        s3: "ULTRA-Score-100%³"
+    },
+
+    # RUN8-Endmotor
+    run8: RUN8
+}
