@@ -1,0 +1,9 @@
+NC.².pulse = {
+    id: "NC².pulse",
+    axis_nc2: "□",
+    axis_octa: "octa³",
+    pulse: "NC².pulse.core",
+    dual: "NC².dual",
+    merge: "NC².merge",
+    error: "NC².error"
+}
