@@ -5,3 +5,11 @@ EU,Wasser,Gesetz 3
 RE,Wüste,Gesetz 4
 UreE,Luft,Gesetz 5
 ME/RE,Eis,Gesetz 6
+MERGE6E = {
+    operator: SYNC6E.operator,
+    energie: SYNC6E.energy,
+    raw: SYNC6E.raw,
+    score: SYNC6E.score,
+    raum: SYNC6E.space,
+    signal: SYNC6E.signal
+}
