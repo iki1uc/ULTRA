@@ -1,0 +1,5 @@
+NC.anker = {
+    fix: "NC.verify",
+    stabilize: ["NC.raw", "NC.³"],
+    prevent: "ALL×ALL‑FAIL"
+}
