@@ -1,0 +1,5 @@
+NC.link = {
+    connect: ["NC.raw", "NC.verify", "NC.³"],
+    sync: ["ULTRA‑SYNC", "ULTRA‑MERGE", "ULTRA‑ROOT‑FUSION"],
+    allxall: true
+}
