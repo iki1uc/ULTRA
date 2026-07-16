@@ -1,0 +1,7 @@
+ROOM = 1D
+AXIS = Raum
+MODE = Linear
+RAW = ROOT
+LINK = X.room ↔ ∞_0M ↔ 9×9
+STATUS = ACTIVE
+
