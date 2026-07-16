@@ -1,0 +1,26 @@
+ULTRA‑ROOT
+ ├── ULTRA‑ORBIT
+ │     ├── UXT
+ │     ├── T°
+ │     ├── ALL×ALL
+ │     ├── Stationen
+ │     ├── Energie
+ │     ├── RAW
+ │     ├── H°
+ │     ├── UEH
+ │     └── 9×9
+ ├── ULTRA‑TECH
+ │     ├── EVO‑Tech
+ │     ├── TRANS‑Warp
+ │     └── HI ::0:: TECH ::=::
+ ├── ULTRA‑META
+ │     ├── MX∞
+ │     ├── META²³
+ │     ├── ∞_0M
+ │     ├── octa²
+ │     ├── octa³
+ │     └── NC.raw
+ ├── ULTRA‑STATIONEN
+ │     └── Stationen[0…120]
+ └── ULTRA‑ALL×ALL
+       └── Σ(Stationen[i])
