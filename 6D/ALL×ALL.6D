@@ -1,4 +1,8 @@
-ALL×ALL.in = NC.link
-ALL×ALL.out = NC.verify
-ALL×ALL.6E = [Energie‑Chain.raw, RAW‑Chain.raw, Score, Raum, Signal]
-ALL×ALL.6D = [ULTRA‑ROOT, ULTRA‑ORBIT, ULTRA‑TECH, ULTRA‑META, STATIONEN.raw, ALL×ALL.raw]
+ALL×ALL.6D = [
+    ULTRA‑ROOT,
+    ULTRA‑ORBIT,
+    ULTRA‑TECH,
+    ULTRA‑META,
+    STATIONEN.raw,
+    ALL×ALL.raw
+]
