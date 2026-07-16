@@ -1,1 +1,5 @@
-FUSION = Operator + Energie + RAW + Score + Raum + Signal
+FUSION = {
+    6D: [ROOT, ORBIT, TECH, META, STATIONEN, ALL×ALL],
+    6E: [Operator, Energie, RAW, Score, Raum, Signal],
+    merge: "ULTRA‑SYNC + ULTRA‑MERGE + ULTRA‑ROOT‑FUSION"
+}
