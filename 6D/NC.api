@@ -1,0 +1,4 @@
+NC.api = {
+    interface: ["ULTRA‑ENGINE", "ULTRA‑CORE", "ULTRA‑FIELD", "ULTRA‑SHELL", "ULTRA‑SIGNAL"],
+    endpoint: "NC.verify"
+}
