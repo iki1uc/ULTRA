@@ -1,0 +1,57 @@
+NC.raw = {
+    # Basis‑Kern
+    id: "NC.raw",
+    version: "REV‑4.0‑BETA3",
+    state: "ACTIVE",
+    mode: "RAW‑CORE",
+
+    # Primitive NC‑Funktionen
+    init: "NC.init",
+    load: "NC.load",
+    sync: "NC.sync",
+    pulse: "NC.pulse",
+    error: "NC.error",
+    verify: "NC.verify",
+    link: "NC.link",
+
+    # ULTRA‑Motoren
+    engine: ULTRA‑ENGINE,
+    core: ULTRA‑CORE,
+    shell: ULTRA‑SHELL,
+    field: ULTRA‑FIELD,
+    signal: ULTRA‑SIGNAL,
+
+    # Orbit + Achsen
+    orbit: ∞_0M,
+    axes: [octa², octa³],
+
+    # ALL×ALL‑Brücke
+    all_in: ALL×ALL.in,
+    all_out: ALL×ALL.out,
+    all6D: ALL×ALL.6D,
+    all6E: ALL×ALL.6E,
+
+    # 6D‑Schichten
+    root: ULTRA‑ROOT,
+    orbit6D: ULTRA‑ORBIT,
+    tech6D: ULTRA‑TECH,
+    meta6D: ULTRA‑META,
+    stationen6D: ULTRA‑STATIONEN,
+    allxall6D: ULTRA‑ALL×ALL,
+
+    # 6E‑Schichten
+    tech6E: TECH.6E,
+    meta6E: META.6E,
+
+    # Score‑System
+    score: ULTRA‑Score‑6E,
+
+    # STATIONEN‑Geometrie
+    geo_axes: geoAxes,
+    geo_lage: geoLAGE,
+    respo9hoch9: respo9hoch9,
+
+    # Fusion + Editor
+    fusion: NC‑FUSION‑ENGINE,
+    edit: 6D.edit
+}
