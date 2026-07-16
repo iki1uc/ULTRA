@@ -1,0 +1,10 @@
+NC².core.stable = {
+    sync: true,
+    drift: 0,
+    energy: balanced,
+    vector: aligned,
+    stationen: bound,
+    allxall: stable,
+    6d: clean,
+    6e: stable
+}
