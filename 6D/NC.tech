@@ -1,0 +1,78 @@
+NC.tech = {
+    # TECH‑Raum (6D)
+    tech6D: TECH.6D,
+
+    # TECH‑Energie (6E)
+    tech6E: TECH.6E,
+
+    # NC‑Kern
+    nc_raw: NC.raw,
+    nc_room: NC.room,
+    nc_link: NC.link,
+    nc_verify: NC.verify,
+
+    # ULTRA‑Motoren
+    engine: ULTRA‑ENGINE,
+    core: ULTRA‑CORE,
+    shell: ULTRA‑SHELL,
+    field: ULTRA‑FIELD,
+    signal: ULTRA‑SIGNAL,
+
+    # ALL×ALL‑Brücke
+    all_in: ALL×ALL.in,
+    all_out: ALL×ALL.out,
+    all6D: ALL×ALL.6D,
+    all6E: ALL×ALL.6E,
+
+    # Orbit + Achsen
+    orbit: ∞_0M,
+    axes: [octa², octa³],
+
+    # Meta‑Ebene
+    meta6D: META.6D,
+    meta6E: META.6E,
+
+    # ROOT‑Ebene
+    root: ULTRA‑ROOT,
+
+    # STATIONEN‑Ebene
+    stationen: STATIONEN.raw,
+    stationen_all: Σ(Stationen[i]),
+
+    # Editor
+    edit: 6D.edit,
+
+    # JS‑Module (für HTML)
+    js: {
+        ghost: ghostCheck,
+        wraight: wraightLoop,
+        help: helpAuto,
+        error: errorTri,
+        axes: geoAxes,
+        lage: geoLAGE,
+        respo: respo9hoch9
+    },
+
+    # CSS‑Meta (für HTML)
+    css: {
+        tech_color: "#00eaff",
+        orbit_color: "#ff00aa",
+        meta_color: "#ffaa00",
+        root_color: "#00ff55",
+        station_color: "#aa00ff"
+    },
+
+    # HEAD‑Meta (für HTML)
+    head: {
+        title: "ULTRA‑TECH",
+        charset: "utf‑8",
+        viewport: "width=device-width, initial-scale=1.0"
+    },
+
+    # BODY‑Meta (für HTML)
+    body: {
+        mode: "TECH‑VIEW",
+        state: "ACTIVE",
+        engine_status: "RUN8"
+    }
+}
